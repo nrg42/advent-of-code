@@ -1,4 +1,4 @@
-const fs = require('fs')
+import * as fs from "node:fs";
 const input = fs.readFileSync('./day-1-input.txt', 'utf-8').trim().split('\n\n')
 
 const part1 = (input) => {

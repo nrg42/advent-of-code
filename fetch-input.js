@@ -5,7 +5,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const YEAR = 2022;
-const DAY = 1;
+const DAY = 2;
 const SESSION_VALUE = process.env.SESSION_VALUE;
 
 fetch(`https://adventofcode.com/${YEAR}/day/${DAY}/input`, {
